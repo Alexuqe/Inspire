@@ -6,6 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE110C9A2ED0EAD1001D804B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE110C962ED0EAD1001D804B /* Assets.xcassets */; };
+		CE110C9B2ED0EAD1001D804B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110C972ED0EAD1001D804B /* ContentView.swift */; };
+		CE110C9C2ED0EAD1001D804B /* InspireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110C982ED0EAD1001D804B /* InspireApp.swift */; };
+		CE110CA02ED0EAF5001D804B /* Color+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110C9F2ED0EAEB001D804B /* Color+RGB.swift */; };
+		CE110CB12ED0F663001D804B /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE110CAF2ED0F663001D804B /* ProximaNova-Regular.ttf */; };
+		CE110CB32ED0F663001D804B /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE110CAD2ED0F663001D804B /* ProximaNova-Bold.ttf */; };
+		CE110CB42ED0F663001D804B /* ProximaNova-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE110CB02ED0F663001D804B /* ProximaNova-Semibold.ttf */; };
+		CE110CB82ED0F6E4001D804B /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE110CB62ED0F6E4001D804B /* PlusJakartaSans-Medium.ttf */; };
+		CE110CB92ED0F6E4001D804B /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE110CB72ED0F6E4001D804B /* PlusJakartaSans-SemiBold.ttf */; };
+		CE110CBA2ED0F6E4001D804B /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE110CB52ED0F6E4001D804B /* PlusJakartaSans-Light.ttf */; };
+		CE110CBC2ED0F7BF001D804B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110CBB2ED0F7BD001D804B /* Fonts.swift */; };
+		CE110CBE2ED1037E001D804B /* ColorStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110CBD2ED10378001D804B /* ColorStyles.swift */; };
+		CE110CC02ED1068C001D804B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110CBF2ED10689001D804B /* AppTheme.swift */; };
+		CE110CC32ED10FAA001D804B /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110CC22ED10FA8001D804B /* Space.swift */; };
+		CE110CC52ED1153A001D804B /* AppThemeEviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE110CC42ED11532001D804B /* AppThemeEviroment.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE110C742ED0EA50001D804B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +45,25 @@
 		CE110C662ED0EA4A001D804B /* Inspire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE110C732ED0EA50001D804B /* InspireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE110C7D2ED0EA50001D804B /* InspireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE110C962ED0EAD1001D804B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE110C972ED0EAD1001D804B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE110C982ED0EAD1001D804B /* InspireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspireApp.swift; sourceTree = "<group>"; };
+		CE110C9F2ED0EAEB001D804B /* Color+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RGB.swift"; sourceTree = "<group>"; };
+		CE110CAC2ED0F4F9001D804B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE110CAD2ED0F663001D804B /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.ttf"; sourceTree = "<group>"; };
+		CE110CAF2ED0F663001D804B /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.ttf"; sourceTree = "<group>"; };
+		CE110CB02ED0F663001D804B /* ProximaNova-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.ttf"; sourceTree = "<group>"; };
+		CE110CB52ED0F6E4001D804B /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		CE110CB62ED0F6E4001D804B /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		CE110CB72ED0F6E4001D804B /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE110CBB2ED0F7BD001D804B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CE110CBD2ED10378001D804B /* ColorStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyles.swift; sourceTree = "<group>"; };
+		CE110CBF2ED10689001D804B /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		CE110CC22ED10FA8001D804B /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		CE110CC42ED11532001D804B /* AppThemeEviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeEviroment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE110C682ED0EA4A001D804B /* Inspire */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Inspire;
-			sourceTree = "<group>";
-		};
 		CE110C762ED0EA50001D804B /* InspireTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = InspireTests;
@@ -75,7 +104,7 @@
 		CE110C5D2ED0EA4A001D804B = {
 			isa = PBXGroup;
 			children = (
-				CE110C682ED0EA4A001D804B /* Inspire */,
+				CE110C992ED0EAD1001D804B /* Inspire */,
 				CE110C762ED0EA50001D804B /* InspireTests */,
 				CE110C802ED0EA50001D804B /* InspireUITests */,
 				CE110C672ED0EA4A001D804B /* Products */,
@@ -92,6 +121,117 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CE110C992ED0EAD1001D804B /* Inspire */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CAC2ED0F4F9001D804B /* Info.plist */,
+				CE110CA52ED0EB82001D804B /* StyleGuide */,
+				CE110CA42ED0EB43001D804B /* App */,
+				CE110C9D2ED0EAD8001D804B /* Helpers */,
+				CE110CA12ED0EB2A001D804B /* Views */,
+				CE110CA22ED0EB35001D804B /* Resources */,
+			);
+			path = Inspire;
+			sourceTree = "<group>";
+		};
+		CE110C9D2ED0EAD8001D804B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE110C9E2ED0EAE4001D804B /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE110C9E2ED0EAE4001D804B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE110C9F2ED0EAEB001D804B /* Color+RGB.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE110CA12ED0EB2A001D804B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE110C972ED0EAD1001D804B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE110CA22ED0EB35001D804B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CA92ED0F4CF001D804B /* Font */,
+				CE110C962ED0EAD1001D804B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE110CA42ED0EB43001D804B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE110C982ED0EAD1001D804B /* InspireApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE110CA52ED0EB82001D804B /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CA82ED0F48F001D804B /* AppTheme */,
+				CE110CA72ED0EB9B001D804B /* Colors */,
+				CE110CA62ED0EB92001D804B /* Fonts */,
+				CE110CC12ED10F95001D804B /* Space */,
+			);
+			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		CE110CA62ED0EB92001D804B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CBB2ED0F7BD001D804B /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE110CA72ED0EB9B001D804B /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CBD2ED10378001D804B /* ColorStyles.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		CE110CA82ED0F48F001D804B /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CBF2ED10689001D804B /* AppTheme.swift */,
+				CE110CC42ED11532001D804B /* AppThemeEviroment.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		CE110CA92ED0F4CF001D804B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CAD2ED0F663001D804B /* ProximaNova-Bold.ttf */,
+				CE110CAF2ED0F663001D804B /* ProximaNova-Regular.ttf */,
+				CE110CB02ED0F663001D804B /* ProximaNova-Semibold.ttf */,
+				CE110CB52ED0F6E4001D804B /* PlusJakartaSans-Light.ttf */,
+				CE110CB62ED0F6E4001D804B /* PlusJakartaSans-Medium.ttf */,
+				CE110CB72ED0F6E4001D804B /* PlusJakartaSans-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CE110CC12ED10F95001D804B /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				CE110CC22ED10FA8001D804B /* Space.swift */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +246,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CE110C682ED0EA4A001D804B /* Inspire */,
 			);
 			name = Inspire;
 			packageProductDependencies = (
@@ -212,6 +349,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE110C9A2ED0EAD1001D804B /* Assets.xcassets in Resources */,
+				CE110CB82ED0F6E4001D804B /* PlusJakartaSans-Medium.ttf in Resources */,
+				CE110CB92ED0F6E4001D804B /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				CE110CBA2ED0F6E4001D804B /* PlusJakartaSans-Light.ttf in Resources */,
+				CE110CB12ED0F663001D804B /* ProximaNova-Regular.ttf in Resources */,
+				CE110CB32ED0F663001D804B /* ProximaNova-Bold.ttf in Resources */,
+				CE110CB42ED0F663001D804B /* ProximaNova-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +380,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE110CBC2ED0F7BF001D804B /* Fonts.swift in Sources */,
+				CE110C9B2ED0EAD1001D804B /* ContentView.swift in Sources */,
+				CE110CC32ED10FAA001D804B /* Space.swift in Sources */,
+				CE110C9C2ED0EAD1001D804B /* InspireApp.swift in Sources */,
+				CE110CC02ED1068C001D804B /* AppTheme.swift in Sources */,
+				CE110CA02ED0EAF5001D804B /* Color+RGB.swift in Sources */,
+				CE110CBE2ED1037E001D804B /* ColorStyles.swift in Sources */,
+				CE110CC52ED1153A001D804B /* AppThemeEviroment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,11 +552,13 @@
 				DEVELOPMENT_TEAM = 24Q9WM75S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Inspire/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,12 +567,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AlexHalushko.Inspire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,11 +590,13 @@
 				DEVELOPMENT_TEAM = 24Q9WM75S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Inspire/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,12 +605,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AlexHalushko.Inspire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

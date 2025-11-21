@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Inspire
-//
-//  Created by Sasha on 21.11.25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,6 +7,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+        }
+        .onAppear {
+            for family in UIFont.familyNames.sorted() {
+                let names = UIFont.fontNames(forFamilyName: family)
+                print("Family: \(family), Font names: \(names)")
+            }
         }
         .padding()
     }
